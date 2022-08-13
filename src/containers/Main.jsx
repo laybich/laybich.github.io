@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Route, Routes, HashRouter } from 'react-router-dom';
 import Home from '../pages/home/HomeComponents';
 import Splash from '../pages/splash/Splash';
 import Projects from '../pages/projects/Projects';
@@ -10,7 +10,7 @@ export default function Main() {
 	if (settings.isSplash) {
 		return (
 			<div>
-				<BrowserRouter basename='/'>
+				<HashRouter basename='/'>
 					<Routes>
 						<Route
 							path='/'
@@ -33,7 +33,7 @@ export default function Main() {
 							element={<Contact />}
 						/>
 					</Routes>
-				</BrowserRouter>
+				</HashRouter>
 			</div>
 		);
 	}
