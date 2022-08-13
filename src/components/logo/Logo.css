@@ -1,0 +1,14 @@
+.logo {
+	display: block;
+	float: left;
+	font-size: 1.5em;
+	text-decoration: none;
+	margin-top: 10px;
+	line-height: normal;
+}
+
+.logo-name {
+	font-family: 'Agustina Regular';
+	font-weight: bold;
+	padding: 0 10px;
+}

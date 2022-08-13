@@ -1,0 +1,36 @@
+.menu-icon {
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	padding: 28px 15px;
+	position: relative;
+	user-select: none;
+}
+
+.menu-icon .navicon {
+	background: #333;
+	display: block;
+	height: 2px;
+	width: 25px;
+	position: relative;
+	transition: background 0.2s ease-out;
+}
+
+.menu-icon .navicon:before,
+.menu-icon .navicon:after {
+	background: #333;
+	content: '';
+	display: block;
+	height: 100%;
+	position: absolute;
+	transition: all 0.2s ease-out;
+	width: 100%;
+}
+
+.menu-icon .navicon:before {
+	top: 7px;
+}
+
+.menu-icon .navicon:after {
+	top: -7px;
+}
