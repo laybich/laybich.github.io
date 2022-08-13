@@ -58,6 +58,9 @@
   } */
 }
 @media (max-width: 768px) {
+	.skills-main-div:nth-child(2n) > *:last-child {
+		order: 1;
+	}
   .skills-heading {
     font-size: 30px;
     text-align: center;
