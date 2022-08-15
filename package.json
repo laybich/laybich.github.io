@@ -1,7 +1,7 @@
 {
   "name": "my_portfolio",
   "homepage": "https://laybich.github.io/",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "dependencies": {
     "@iconify/react": "^3.2.2",
