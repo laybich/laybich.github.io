@@ -10,9 +10,9 @@ const seo = {
 
 //Home Page
 const greeting = {
-	title: 'Matthew Sai',
-	logo_name: 'MatthewSai',
-	nickname: 'laybich',
+	title: 'Matthew Laybich',
+	logo_name: 'MatthewLaybich',
+	nickname: 'random9',
 	subTitle: 'A persistent individual who wants to know everything, and always learn something new. That\'s the only way I\'ll be successful',
 	portfolio_repository: 'https://github.com/laybich/',
 	githubProfile: 'https://github.com/laybich',
